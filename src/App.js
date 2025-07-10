@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './Header/Header';
 import './App.css';
+
+// https://github.com/pauljeffreys1974/pjcdev.com
+// https://www.zovirl.com/2011/07/22/solarized_cheat_sheet/
+// https://www.pjcdev.com/
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <BrowserRouter>
+        <Header/>
+        <Routes>
+          <Route path='/' element={<section>Home</section>} />
+          <Route path='/about' element={<section>About</section>} />
+          <Route path='/resume' element={<section>Resume</section>} />
+          <Route path='/contact' element={<section>Contact</section>} />
+        </Routes>
+        <footer>Footer &copy; Pete</footer>
+      </BrowserRouter>
     </div>
   );
 }
