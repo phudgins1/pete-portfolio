@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header/Header';
+import Footer from './Footer/Footer';
+
 import './App.css';
 
 // https://github.com/pauljeffreys1974/pjcdev.com
@@ -17,7 +19,7 @@ function App() {
           <Route path='/resume' element={<section>Resume</section>} />
           <Route path='/contact' element={<section>Contact</section>} />
         </Routes>
-        <footer>Footer &copy; Pete</footer>
+        <Footer/>
       </BrowserRouter>
     </div>
   );

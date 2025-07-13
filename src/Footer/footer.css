@@ -1,0 +1,17 @@
+@import url('/src/base-styles.css');
+
+.footer-container {
+  background-color: var(--s-base02);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 0.8em;
+  border-top: 1px solid var(--s-base01);
+}
+
+.social-links {
+  display: flex;
+  gap: 14px;
+}
