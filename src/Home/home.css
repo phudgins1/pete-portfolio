@@ -1,0 +1,20 @@
+@import url('/src/base-styles.css');
+
+.home-container {
+  background-color: var(--s-base03);
+}
+
+.intro {
+  padding: 20vh 12px 20vh 12vw;
+  font-size: 1.4em;
+}
+
+.intro h2 {
+  color: var(--s-blue);
+  font-weight: 500;
+}
+
+.intro p {
+  margin: 16px 0;
+  color: var(--s-base2);
+}
