@@ -18,3 +18,31 @@
   margin: 16px 0;
   color: var(--s-base2);
 }
+
+.intro p button {
+  margin-top: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  min-height: 40px;
+  font-weight: 500;
+  background-color: var(--s-base02);
+  border: 0;
+  border-radius: 100px;
+  color: var(--s-base2);
+}
+
+.intro p button:focus,
+.intro p button:hover {
+  color: var(--s-base02);
+  background-color: var(--s-base2);
+}
+
+.intro p button:active {
+  color: var(--s-base02);
+  background-color: var(--s-blue);
+}
+
+.intro p button:first-of-type {
+  margin-right: 10px;
+}

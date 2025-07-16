@@ -10,6 +10,10 @@ const Home = () => {
       <section className='intro'>
         <h2>Software Developer</h2>
         <p>Creating Back End APIs and Front End solutions to user problems with clean code.</p>
+        <p>
+          <button onClick={() => navigate('/resume')}>Resume</button>
+          <button onClick={() => navigate('/about')}>About Me</button>
+        </p>
       </section>
     </div>
   );
