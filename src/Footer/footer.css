@@ -15,3 +15,7 @@
   display: flex;
   gap: 14px;
 }
+
+.social-links a i:hover {
+  color: var(--s-base2);
+}
