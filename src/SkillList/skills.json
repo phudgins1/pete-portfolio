@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "NodeJS",
+    "icon": "fa-2xl fa-brands fa-node-js",
+    "level": "Experienced"
+  },
+  {
+    "id": 2,
+    "name": "PostgreSQL",
+    "icon": "fa-solid fa-database",
+    "level": "Experienced"
+  },
+  {
+    "id": 3,
+    "name": "ReactJS",
+    "icon": "fa-2xl fa-brands fa-react",
+    "level": "Experienced"
+  },
+  {
+    "id": 4,
+    "name": "HTML5",
+    "icon": "fa-2xl fa-brands fa-html5",
+    "level": "Experienced"
+  },
+  {
+    "id": 5,
+    "name": "CSS",
+    "icon": "fa-2xl fa-brands fa-css",
+    "level": "Intermediate"
+  },
+  {
+    "id": 6,
+    "name": "Ruby/Rails",
+    "image": "/images/ruby.png",
+    "level": "Experienced"
+  },
+  {
+    "id": 7,
+    "name": "Typescript",
+    "image": "/images/typescript.svg",
+    "level": "Experienced"
+  },
+  {
+    "id": 8,
+    "name": "Git",
+    "icon": "fa-2xl fa-brands fa-git-alt",
+    "level": "Experienced"
+  },
+  {
+    "id": 9,
+    "name": "Elastic",
+    "image": "images/elastic.svg",
+    "level": "Intermediate"
+  }
+]

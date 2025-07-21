@@ -1,0 +1,62 @@
+@import url('/src/base-styles.css');
+
+.skill-list {
+  text-align: center;
+  padding: 5vh 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-list h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 0;
+  color: var(--s-blue);
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-top: 22px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--s-base01);
+  width: calc(100vw / 4.5);
+  border-radius: 12px;
+  padding: 28px 18px;
+  background-color: var(--s-base02);
+}
+
+.skill p {
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--s-base2)
+}
+
+.skill p:nth-of-type(2) {
+  font-weight: 600;
+  margin: 12px 0 6px;
+}
+
+.skill p i {
+  color: var(--s-blue);
+}
+
+.skill p img {
+  height: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .skill {
+    width: calc(100vw / 2.55);
+  }
+}

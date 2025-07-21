@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import SkillList from '../SkillList/SkillList';
 
 import './home.css';
 
@@ -15,6 +16,7 @@ const Home = () => {
           <button onClick={() => navigate('/about')}>About Me</button>
         </p>
       </section>
+      <SkillList/>
     </div>
   );
 };
