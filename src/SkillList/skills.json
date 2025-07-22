@@ -8,7 +8,7 @@
   {
     "id": 2,
     "name": "PostgreSQL",
-    "icon": "fa-solid fa-database",
+    "image": "/images/PostgresSQL.svg",
     "level": "Experienced"
   },
   {
@@ -52,5 +52,23 @@
     "name": "Elastic",
     "image": "images/elastic.svg",
     "level": "Intermediate"
+  },
+  {
+    "id": 10,
+    "name": "REST",
+    "icon": "fa-solid fa-cloud",
+    "level": "Experienced"
+  },
+  {
+    "id": 11,
+    "name": "MongoDB",
+    "image": "images/MongoDB.svg",
+    "level": "Experienced"
+  },
+  {
+    "id": 12,
+    "name": "RabbitMQ",
+    "image": "images/RabbitMQ.svg",
+    "level": "Experienced"
   }
 ]
