@@ -1,0 +1,45 @@
+@import url('/src/base-styles.css');
+
+.about-container {
+  background-color: var(--s-base03);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: calc(100vh - 122px);
+  padding: 28px;
+}
+
+.about-container h2 {
+  color: var(--s-blue);
+  font-weight: 500;
+  font-size: 2.2rem;
+  padding-bottom: 0.5rem;
+}
+
+.about-content {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 28px;
+  max-width: 1200px;
+}
+
+.about-content img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.about-text p {
+  color: var(--s-base2);
+}
