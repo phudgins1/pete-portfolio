@@ -9,13 +9,21 @@ const About = () => {
         <img height="200" width="200" alt='Pete Hudgins' src='/images/pete-avatar.png'/>
         <div className='about-text'>
           <p>
-            Text about me will go here.
+            I have a passion for developing efficient, creative software for clear client problems, 
+            and I am excited about the opportunity to showcase my skills.
           </p>
           <p>
-            There will be multiple paragraphs.
+            My expertise in NodeJS, Typescript, ElasticSearch and SQL
+            allows me to build robust, fast back-end services, 
+            as well as rich, front-end interfaces.
           </p>
           <p>
-            The text will make me seem awesome and not awkward at all.
+            I've worked extensively in building worker processes, using tools like Redis, 
+            RabbitMQ, and MongoDB to better minimize manual operations.
+          </p>
+          <p>
+            In my free time, I enjoy solving puzzles, reading and watching movies. 
+            I always try to learn something new every day.
           </p>
         </div>
       </div>
