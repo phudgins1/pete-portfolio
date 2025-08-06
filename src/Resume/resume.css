@@ -1,0 +1,77 @@
+@import url('/src/base-styles.css');
+
+.resume-container {
+  background-color: var(--s-base03);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.resume-summary,
+.resume-intro {
+  width: 80%;
+  max-width: 1000px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.resume-intro {
+  display: flex;
+  gap: 22px;
+}
+
+.resume-intro h2 {
+  color: var(--s-base2);
+  font-weight: 500;
+  font-size: 2.2rem;
+}
+
+.resume-intro .intro-summary {
+  color: var(--s-blue);
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin: 6px 0;
+}
+
+.resume-intro .avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  border: 2px solid var(--s-blue);
+  flex-grow: 0;
+  background-image: url('/public/images/pete-avatar.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.resume-intro .details {
+  flex-grow: 1;
+}
+
+.resume-intro .intro-socials {
+  display: flex;
+  gap: 10px;
+}
+
+.resume-intro .intro-socials i {
+  color: var(--s-blue);
+  margin-right: 5px;
+}
+
+.resume-intro .intro-socials span {
+  color: var(--s-base2)
+}
+
+.resume-intro .intro-socials span a {
+  color: var(--s-base2)
+}
+
+.resume-summary {
+  background-color: var(--s-base02);
+}
+
+.resume-summary h3, .resume-summary p {
+  color: var(--s-base2);
+}

@@ -3,6 +3,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import Home from './Home/Home';
 import About from './About/About';
+import Resume from './Resume/Resume';
 
 import './App.css';
 
@@ -18,7 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/about' element={<About/>} />
-          <Route path='/resume' element={<section>Resume</section>} />
+          <Route path='/resume' element={<Resume/>} />
           <Route path='/contact' element={<section>Contact</section>} />
         </Routes>
         <Footer/>
