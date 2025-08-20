@@ -9,6 +9,7 @@
 }
 
 .resume-summary,
+.resume-work-experience,
 .resume-intro {
   width: 80%;
   max-width: 1000px;
@@ -70,8 +71,75 @@
 
 .resume-summary {
   background-color: var(--s-base02);
+  padding: 30px 40px;
+  font-size: 1.1em;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.resume-summary h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: var(--s-blue);
 }
 
-.resume-summary h3, .resume-summary p {
+.resume-summary p {
   color: var(--s-base2);
+}
+
+.resume-work-experience h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  color: var(--s-base2);
+}
+
+.work-experience {
+  background-color: var(--s-base02);
+  border-radius: 8px;
+  min-height: 200px;
+  margin: 20px 0;
+  padding: 25px 30px;
+  font-size: 1.1em;
+}
+
+.work-experience h4 {
+  color: var(--s-base2);
+}
+
+.experience-company {
+  color: var(--s-blue);
+  font-weight: 500;
+  margin: 4px 0 4px;
+}
+
+.experience-dates {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.experience-details {
+  color: var(--s-base2);
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.experience-details li {
+  color: var(--s-base2);
+  font-size: 1em;
+  list-style-type: circle;
+}
+
+.experience-skills {
+  display: flex;
+  margin: 12px 0 0;
+  padding: 0;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.experience-skills li {
+  color: var(--s-blue);
+  background-color: var(--s-base03);
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.9em;
 }
