@@ -38,7 +38,7 @@ const Resume = () => {
       <article className='resume-summary'>
         <h3>Summary</h3>
         <p>
-          I’ve worked in a breadth of roles in enterprise web development, specializing in Cloud Architecture, SQL, React, TypeScript, C#, Elasticsearch, Jest, JavaScript, Redis, Ruby on Rails, Node.js and PostgresSQL.
+          I've worked in a breadth of roles in enterprise web development, specializing in Cloud Architecture, SQL, React, TypeScript, C#, Elasticsearch, Jest, JavaScript, Redis, Ruby on Rails, Node.js and PostgresSQL.
         </p>
       </article>
       <article className='resume-work-experience'>
@@ -63,6 +63,29 @@ const Resume = () => {
             <li>TailwindCSS</li>
             <li>Jest</li>
             <li>Cypress</li>
+          </ul>
+        </div>
+        <div className='work-experience'>
+          <h4>Backend Developer</h4>
+          <p className='experience-company'>Homes.com — Norfolk, VA</p>
+          <p className='experience-dates'>Aug 2016 — Aug 2021</p>
+          <ul className='experience-details'>
+            <li>Implemented micro-services to provide dynamic data to front-end website.</li>
+            <li>Created worker processes to handle automated tasks and event processing.</li>
+            <li>Implemented Kibana dashboards for ease of log monitoring.</li>
+            <li>Rebuilt the main portal's redirect engine, speeding up redirects by half</li>
+            <li>Established linting rules for all codebases making them all consistent.</li>
+          </ul>
+          <ul className='experience-skills'>
+            <li>ElasticSearch</li>
+            <li>Typescript</li>
+            <li>NodeJS</li>
+            <li>Jest</li>
+            <li>Ramda</li>
+            <li>RabbitMQ</li>
+            <li>MongoDB</li>
+            <li>HapiJS</li>
+            <li>ELK</li>
           </ul>
         </div>
       </article>
